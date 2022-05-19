@@ -1,0 +1,14 @@
+@import "../variables.scss";
+
+.nav{
+    background-image: linear-gradient(to right, rgb(52, 151, 68), rgb(24, 116, 39), rgb(6, 75, 12));
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 125%;
+}
+.nav-a{
+    text-decoration: none;
+    color: white;
+}

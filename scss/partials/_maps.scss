@@ -1,0 +1,15 @@
+@import "../variables.scss";
+
+$footer:(
+    color-letra: white,
+    color-fondo: rgb(8, 8, 8),
+    espaciado: 30px,
+);
+
+footer{
+    color: map-get($footer, color-letra);
+    background-color: map-get($footer, color-fondo);
+    padding: map-get($footer, espaciado);
+    display: flex;
+    justify-content: space-evenly;
+}

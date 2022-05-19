@@ -1,0 +1,7 @@
+@import "../variables.scss";
+@import "../partials/mixins";
+@import "../partials/extend";
+
+body{
+    @include cuerpo;
+}
