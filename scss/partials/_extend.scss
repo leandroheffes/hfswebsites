@@ -1,4 +1,5 @@
 @import "../variables.scss";
+/*para clases*/
 
 .nav{
     background-image: linear-gradient(to right, rgb(52, 151, 68), rgb(24, 116, 39), rgb(6, 75, 12));
@@ -11,4 +12,8 @@
 .nav-a{
     text-decoration: none;
     color: white;
+}
+.main-section-arriba{
+    background-image: url(../img/background-main.png);
+    border-bottom: 3px solid rgb(78, 90, 255);
 }

@@ -1,4 +1,5 @@
 @import "../variables.scss";
+/*para etiquetas y clases con etiquetas*/
 
 $footer:(
     color-letra: white,
@@ -12,4 +13,16 @@ footer{
     padding: map-get($footer, espaciado);
     display: flex;
     justify-content: space-evenly;
+}
+.main-index img{
+    width: 85%;
+    display: block;
+    margin: auto;
+    padding: 100px;
+}
+.main-index h1{
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    padding-bottom: 110px;
 }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/*para etiquetas y clases con etiquetas*/
 footer {
   color: white;
   background-color: #080808;
@@ -6,6 +7,19 @@ footer {
   display: flex;
   justify-content: space-evenly; }
 
+.main-index img {
+  width: 85%;
+  display: block;
+  margin: auto;
+  padding: 100px; }
+
+.main-index h1 {
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  padding-bottom: 110px; }
+
+/*para clases*/
 .nav, nav {
   background-image: linear-gradient(to right, #349744, #187427, #064b0c);
   padding: 20px;
@@ -18,9 +32,64 @@ footer {
   text-decoration: none;
   color: white; }
 
+.main-section-arriba {
+  background-image: url(../img/background-main.png);
+  border-bottom: 3px solid #4e5aff; }
+
+/*para clases*/
+.nav, nav {
+  background-image: linear-gradient(to right, #349744, #187427, #064b0c);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 125%; }
+
+.nav-a, nav {
+  text-decoration: none;
+  color: white; }
+
+.main-section-arriba {
+  background-image: url(../img/background-main.png);
+  border-bottom: 3px solid #4e5aff; }
+
+/*para clases*/
+.nav, nav {
+  background-image: linear-gradient(to right, #349744, #187427, #064b0c);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 125%; }
+
+.nav-a, nav {
+  text-decoration: none;
+  color: white; }
+
+.main-section-arriba {
+  background-image: url(../img/background-main.png);
+  border-bottom: 3px solid #4e5aff; }
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #141414; }
+
+/*para clases*/
+.nav, nav {
+  background-image: linear-gradient(to right, #349744, #187427, #064b0c);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 125%; }
+
+.nav-a, nav {
+  text-decoration: none;
+  color: white; }
+
+.main-section-arriba {
+  background-image: url(../img/background-main.png);
+  border-bottom: 3px solid #4e5aff; }
 
 footer img {
   width: 30%; }
