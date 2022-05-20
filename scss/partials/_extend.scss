@@ -17,3 +17,35 @@
     background-image: url(../img/background-main.png);
     border-bottom: 3px solid rgb(78, 90, 255);
 }
+.section-productos{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.section-productos-div{
+    border: 5px solid rgb(196, 196, 196);
+    width: 40%;
+    margin: auto;
+    box-shadow: 0px 10px 20px black;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    transition: width .2s;
+}
+.section-productos-div-parrafos{
+    padding: 15px;
+    background-color:rgba(7, 0, 110, 0.1);
+}
+.section-nosotros{
+    color: white;
+    width: 85%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 2px solid rgb(0, 156, 5);
+    border-radius: 7px;
+    font-size: 150%;
+}
+.section-nosotros-h2{
+    margin-top: 20px;
+}
